@@ -1,17 +1,18 @@
 import os
 
 from flask import Flask
-from .routes.wikigenerator_route import simple_page
+from .routes.wikigenerator_route import wikigenerator
+from .logger.log import logger_initiation
 
 def create_app(test_config=None):
     # create and configure the app
     app = Flask(__name__, instance_relative_config=True)
-    app.register_blueprint(simple_page)
+    app.register_blueprint(wikigenerator)
     app.config.from_mapping(
         SECRET_KEY='dev',
         DATABASE=os.path.join(app.instance_path, 'flaskr.sqlite'),
     )
-    
+    logger_initiation()
     if test_config is None:
         # load the instance config, if it exists, when not testing
         app.config.from_pyfile('config.py', silent=True)
