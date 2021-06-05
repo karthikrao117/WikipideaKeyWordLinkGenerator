@@ -8,7 +8,7 @@ def add_url_request():
     try:
         if request.args['search_url']:
             search_url = str(request.args['search_url'])
-            WebScrapper.updateKeywordLinkMap(search_url)
+            WebScrapper.get_html_content(search_url)
             return Response("Success",status=201)
         else:
             return Response("Enter valid search url",status=404)

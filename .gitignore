@@ -4,11 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
-/src/__pycache__
+__pycache__
 /src/instance
 # testing
 /coverage
-
+.vscode
 # production
 /build
 
