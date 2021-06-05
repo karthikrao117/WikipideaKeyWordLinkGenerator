@@ -1,0 +1,23 @@
+2021-06-05 19:50:53,403 Initiating Server Instance
+2021-06-05 19:50:53,523  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-05 19:50:57,866 get_wiki_link_list search Keyvideo_search
+2021-06-05 19:50:58,052 Error occured while connecting to DB get_wiki_link_list::dictionary update sequence element #0 has length 3; 2 is required
+2021-06-05 19:50:58,052 127.0.0.1 - - [05/Jun/2021 19:50:58] "[31m[1mPOST /getrelativepages?search_keyword=video_search HTTP/1.1[0m" 400 -
+2021-06-05 19:55:01,009 Initiating Server Instance
+2021-06-05 19:55:01,364  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-05 19:55:04,673 get_wiki_link_list search Keyvideo_search
+2021-06-05 19:55:04,849 127.0.0.1 - - [05/Jun/2021 19:55:04] "[35m[1mPOST /getrelativepages?search_keyword=video_search HTTP/1.1[0m" 201 -
+2021-06-05 19:55:34,582 Initiating Server Instance
+2021-06-05 19:55:34,705  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-05 19:57:06,610 Initiating Server Instance
+2021-06-05 19:57:07,033  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-05 19:57:09,415 get_wiki_link_list search Keyvideo_search
+2021-06-05 19:57:09,591 127.0.0.1 - - [05/Jun/2021 19:57:09] "[35m[1mPOST /getrelativepages?search_keyword=video_search HTTP/1.1[0m" 201 -
+2021-06-05 19:57:29,838 Initiating Server Instance
+2021-06-05 19:57:30,022  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-05 19:57:36,942 get_wiki_link_list search Keyvideo_searchq
+2021-06-05 19:57:37,153 Error occured while connecting to DB get_wiki_link_list::'NoneType' object is not subscriptable
+2021-06-05 19:57:37,153 127.0.0.1 - - [05/Jun/2021 19:57:37] "[31m[1mPOST /getrelativepages?search_keyword=video_searchq HTTP/1.1[0m" 400 -
+2021-06-05 19:57:43,949 127.0.0.1 - - [05/Jun/2021 19:57:43] "[31m[1mGET /getrelativepages?search_keyword=video_search HTTP/1.1[0m" 405 -
+2021-06-05 19:57:51,811 get_wiki_link_list search Keyvideo_search
+2021-06-05 19:57:51,842 127.0.0.1 - - [05/Jun/2021 19:57:51] "[35m[1mPOST /getrelativepages?search_keyword=video_search HTTP/1.1[0m" 201 -
