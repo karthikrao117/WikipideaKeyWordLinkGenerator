@@ -1,23 +1,879 @@
-2021-06-05 19:50:53,403 Initiating Server Instance
-2021-06-05 19:50:53,523  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2021-06-05 19:50:57,866 get_wiki_link_list search Keyvideo_search
-2021-06-05 19:50:58,052 Error occured while connecting to DB get_wiki_link_list::dictionary update sequence element #0 has length 3; 2 is required
-2021-06-05 19:50:58,052 127.0.0.1 - - [05/Jun/2021 19:50:58] "[31m[1mPOST /getrelativepages?search_keyword=video_search HTTP/1.1[0m" 400 -
-2021-06-05 19:55:01,009 Initiating Server Instance
-2021-06-05 19:55:01,364  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2021-06-05 19:55:04,673 get_wiki_link_list search Keyvideo_search
-2021-06-05 19:55:04,849 127.0.0.1 - - [05/Jun/2021 19:55:04] "[35m[1mPOST /getrelativepages?search_keyword=video_search HTTP/1.1[0m" 201 -
-2021-06-05 19:55:34,582 Initiating Server Instance
-2021-06-05 19:55:34,705  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2021-06-05 19:57:06,610 Initiating Server Instance
-2021-06-05 19:57:07,033  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2021-06-05 19:57:09,415 get_wiki_link_list search Keyvideo_search
-2021-06-05 19:57:09,591 127.0.0.1 - - [05/Jun/2021 19:57:09] "[35m[1mPOST /getrelativepages?search_keyword=video_search HTTP/1.1[0m" 201 -
-2021-06-05 19:57:29,838 Initiating Server Instance
-2021-06-05 19:57:30,022  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2021-06-05 19:57:36,942 get_wiki_link_list search Keyvideo_searchq
-2021-06-05 19:57:37,153 Error occured while connecting to DB get_wiki_link_list::'NoneType' object is not subscriptable
-2021-06-05 19:57:37,153 127.0.0.1 - - [05/Jun/2021 19:57:37] "[31m[1mPOST /getrelativepages?search_keyword=video_searchq HTTP/1.1[0m" 400 -
-2021-06-05 19:57:43,949 127.0.0.1 - - [05/Jun/2021 19:57:43] "[31m[1mGET /getrelativepages?search_keyword=video_search HTTP/1.1[0m" 405 -
-2021-06-05 19:57:51,811 get_wiki_link_list search Keyvideo_search
-2021-06-05 19:57:51,842 127.0.0.1 - - [05/Jun/2021 19:57:51] "[35m[1mPOST /getrelativepages?search_keyword=video_search HTTP/1.1[0m" 201 -
+2021-06-06 12:31:37,086 127.0.0.1 - - [06/Jun/2021 12:31:37] "POST /auth/sign_up?user_name=karthik&user_password=sathe HTTP/1.1" 200 -
+2021-06-06 12:41:12,356  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\mongo_service_model.py', reloading
+2021-06-06 12:41:12,848  * Restarting with stat
+2021-06-06 12:41:14,417 Initiating Server Instance
+2021-06-06 12:41:17,247  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\mongo_service_model.py', reloading
+2021-06-06 12:41:17,758  * Restarting with stat
+2021-06-06 12:41:18,890 Initiating Server Instance
+2021-06-06 12:41:38,699  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:41:39,299  * Restarting with stat
+2021-06-06 12:41:40,488 Initiating Server Instance
+2021-06-06 12:41:56,034  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:41:56,381  * Restarting with stat
+2021-06-06 12:41:57,548 Initiating Server Instance
+2021-06-06 12:42:00,411  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:42:00,893  * Restarting with stat
+2021-06-06 12:42:02,094 Initiating Server Instance
+2021-06-06 12:42:02,801  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:42:03,334  * Restarting with stat
+2021-06-06 12:42:04,605 Initiating Server Instance
+2021-06-06 12:42:09,593  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:42:10,009  * Restarting with stat
+2021-06-06 12:42:12,033  * Restarting with stat
+2021-06-06 12:42:13,138 Initiating Server Instance
+2021-06-06 12:42:19,213  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:42:19,768  * Restarting with stat
+2021-06-06 12:42:21,372 Initiating Server Instance
+2021-06-06 12:42:42,114  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\mongo_service_model.py', reloading
+2021-06-06 12:42:42,687  * Restarting with stat
+2021-06-06 12:42:43,993 Initiating Server Instance
+2021-06-06 12:42:44,721  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\mongo_service_model.py', reloading
+2021-06-06 12:42:45,281  * Restarting with stat
+2021-06-06 12:42:46,545 Initiating Server Instance
+2021-06-06 12:43:01,144  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:43:01,672  * Restarting with stat
+2021-06-06 12:43:05,839  * Restarting with stat
+2021-06-06 12:43:15,740  * Restarting with stat
+2021-06-06 12:43:17,830  * Restarting with stat
+2021-06-06 12:43:25,022  * Restarting with stat
+2021-06-06 12:43:36,151  * Restarting with stat
+2021-06-06 12:43:41,416  * Restarting with stat
+2021-06-06 12:43:42,767 Initiating Server Instance
+2021-06-06 12:43:43,473  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:43:43,969  * Restarting with stat
+2021-06-06 12:43:48,420  * Restarting with stat
+2021-06-06 12:43:56,903  * Restarting with stat
+2021-06-06 12:44:02,209  * Restarting with stat
+2021-06-06 12:44:04,226  * Restarting with stat
+2021-06-06 12:44:06,154 Initiating Server Instance
+2021-06-06 12:44:08,823  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:44:09,362  * Restarting with stat
+2021-06-06 12:44:22,143  * Restarting with stat
+2021-06-06 12:44:30,541  * Restarting with stat
+2021-06-06 12:44:36,784  * Restarting with stat
+2021-06-06 12:44:37,971 Initiating Server Instance
+2021-06-06 12:44:38,691  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:44:39,240  * Restarting with stat
+2021-06-06 12:44:40,604 Initiating Server Instance
+2021-06-06 12:44:48,641  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:44:49,075  * Restarting with stat
+2021-06-06 12:44:50,454 Initiating Server Instance
+2021-06-06 12:44:51,123  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:44:51,628  * Restarting with stat
+2021-06-06 12:44:52,870 Initiating Server Instance
+2021-06-06 12:44:53,513  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:44:54,042  * Restarting with stat
+2021-06-06 12:44:55,602 Initiating Server Instance
+2021-06-06 12:44:56,278  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:44:56,873  * Restarting with stat
+2021-06-06 12:44:58,422 Initiating Server Instance
+2021-06-06 12:45:05,428  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:45:05,817  * Restarting with stat
+2021-06-06 12:45:12,040  * Restarting with stat
+2021-06-06 12:45:13,257 Initiating Server Instance
+2021-06-06 12:45:17,215  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:45:17,588  * Restarting with stat
+2021-06-06 12:45:18,732 Initiating Server Instance
+2021-06-06 12:45:29,262  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:45:29,787  * Restarting with stat
+2021-06-06 12:45:30,993 Initiating Server Instance
+2021-06-06 12:45:55,008  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 12:45:55,427  * Restarting with stat
+2021-06-06 12:45:57,583  * Restarting with stat
+2021-06-06 12:45:58,786 Initiating Server Instance
+2021-06-06 12:46:04,750  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 12:46:05,288  * Restarting with stat
+2021-06-06 12:46:06,553 Initiating Server Instance
+2021-06-06 12:46:36,995  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:46:37,542  * Restarting with stat
+2021-06-06 12:46:38,693 Initiating Server Instance
+2021-06-06 12:46:46,789  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:46:47,076  * Restarting with stat
+2021-06-06 12:46:48,304 Initiating Server Instance
+2021-06-06 12:46:50,033  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:46:50,565  * Restarting with stat
+2021-06-06 12:46:51,710 Initiating Server Instance
+2021-06-06 12:46:58,826  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:46:59,481  * Restarting with stat
+2021-06-06 12:47:00,751 Initiating Server Instance
+2021-06-06 12:47:18,343  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:47:18,824  * Restarting with stat
+2021-06-06 12:47:20,229 Initiating Server Instance
+2021-06-06 12:47:25,151  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:47:25,575  * Restarting with stat
+2021-06-06 12:47:26,730 Initiating Server Instance
+2021-06-06 12:47:48,598  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:47:49,135  * Restarting with stat
+2021-06-06 12:47:50,539 Initiating Server Instance
+2021-06-06 12:47:52,212  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:47:52,721  * Restarting with stat
+2021-06-06 12:47:53,919 Initiating Server Instance
+2021-06-06 12:52:37,825  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:52:38,412  * Restarting with stat
+2021-06-06 12:52:39,865 Initiating Server Instance
+2021-06-06 12:52:46,751  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:52:47,333  * Restarting with stat
+2021-06-06 12:52:48,583 Initiating Server Instance
+2021-06-06 12:52:58,737  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:52:59,311  * Restarting with stat
+2021-06-06 12:53:01,387  * Restarting with stat
+2021-06-06 12:53:02,561 Initiating Server Instance
+2021-06-06 12:53:03,349  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:53:03,897  * Restarting with stat
+2021-06-06 12:53:05,079 Initiating Server Instance
+2021-06-06 12:53:12,176  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:53:12,412  * Restarting with stat
+2021-06-06 12:53:13,599 Initiating Server Instance
+2021-06-06 12:53:15,400  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:53:15,925  * Restarting with stat
+2021-06-06 12:53:19,076  * Restarting with stat
+2021-06-06 12:53:20,433 Initiating Server Instance
+2021-06-06 12:53:23,304  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:53:23,773  * Restarting with stat
+2021-06-06 12:53:24,977 Initiating Server Instance
+2021-06-06 12:53:26,742  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:53:27,325  * Restarting with stat
+2021-06-06 12:53:31,534  * Restarting with stat
+2021-06-06 12:53:33,593  * Restarting with stat
+2021-06-06 12:53:35,222 Initiating Server Instance
+2021-06-06 12:53:35,820  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:53:36,102  * Restarting with stat
+2021-06-06 12:53:37,341 Initiating Server Instance
+2021-06-06 12:55:50,145  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:55:50,758  * Restarting with stat
+2021-06-06 12:55:52,171 Initiating Server Instance
+2021-06-06 12:55:54,983  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:55:55,589  * Restarting with stat
+2021-06-06 12:55:58,645  * Restarting with stat
+2021-06-06 12:55:59,960 Initiating Server Instance
+2021-06-06 12:56:02,750  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:56:03,313  * Restarting with stat
+2021-06-06 12:56:04,422 Initiating Server Instance
+2021-06-06 12:56:08,368  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:56:08,760  * Restarting with stat
+2021-06-06 12:56:09,945 Initiating Server Instance
+2021-06-06 12:56:14,887  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:56:15,319  * Restarting with stat
+2021-06-06 12:56:16,470 Initiating Server Instance
+2021-06-06 12:56:17,192  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:56:17,768  * Restarting with stat
+2021-06-06 12:56:18,913 Initiating Server Instance
+2021-06-06 12:57:02,072  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 12:57:02,639  * Restarting with stat
+2021-06-06 12:57:03,884 Initiating Server Instance
+2021-06-06 12:57:04,633  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 12:57:05,071  * Restarting with stat
+2021-06-06 12:57:06,219 Initiating Server Instance
+2021-06-06 12:57:09,068  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 12:57:09,569  * Restarting with stat
+2021-06-06 12:57:10,893 Initiating Server Instance
+2021-06-06 12:57:13,752  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 12:57:14,306  * Restarting with stat
+2021-06-06 12:57:21,156 Initiating Server Instance
+2021-06-06 12:57:21,873  * Restarting with stat
+2021-06-06 12:57:23,403 Initiating Server Instance
+2021-06-06 12:57:25,190  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 12:57:25,755  * Restarting with stat
+2021-06-06 12:57:27,019 Initiating Server Instance
+2021-06-06 12:57:29,905  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 12:57:30,489  * Restarting with stat
+2021-06-06 12:57:31,999 Initiating Server Instance
+2021-06-06 12:57:35,922  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 12:57:36,346  * Restarting with stat
+2021-06-06 12:57:43,792  * Restarting with stat
+2021-06-06 12:57:45,113 Initiating Server Instance
+2021-06-06 12:57:48,932  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 12:57:49,494  * Restarting with stat
+2021-06-06 12:57:51,630  * Restarting with stat
+2021-06-06 12:57:53,664  * Restarting with stat
+2021-06-06 12:57:56,880  * Restarting with stat
+2021-06-06 12:57:58,168 Initiating Server Instance
+2021-06-06 12:57:58,844  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 12:57:59,359  * Restarting with stat
+2021-06-06 12:58:00,757 Initiating Server Instance
+2021-06-06 12:58:33,288  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:58:33,691  * Restarting with stat
+2021-06-06 12:58:37,755  * Restarting with stat
+2021-06-06 12:58:42,943  * Restarting with stat
+2021-06-06 12:58:44,917  * Restarting with stat
+2021-06-06 12:58:47,221  * Restarting with stat
+2021-06-06 12:58:51,349  * Restarting with stat
+2021-06-06 12:58:52,620 Initiating Server Instance
+2021-06-06 12:58:53,290  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:58:53,849  * Restarting with stat
+2021-06-06 12:58:55,249 Initiating Server Instance
+2021-06-06 12:59:04,350  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:59:04,618  * Restarting with stat
+2021-06-06 12:59:05,897 Initiating Server Instance
+2021-06-06 12:59:10,829  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:59:11,360  * Restarting with stat
+2021-06-06 12:59:14,382  * Restarting with stat
+2021-06-06 12:59:18,785  * Restarting with stat
+2021-06-06 12:59:24,381  * Restarting with stat
+2021-06-06 12:59:25,649 Initiating Server Instance
+2021-06-06 12:59:32,773  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:59:33,346  * Restarting with stat
+2021-06-06 12:59:34,509 Initiating Server Instance
+2021-06-06 12:59:39,475  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 12:59:39,904  * Restarting with stat
+2021-06-06 12:59:41,063 Initiating Server Instance
+2021-06-06 13:00:22,459  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:00:23,049  * Restarting with stat
+2021-06-06 13:00:24,705 Initiating Server Instance
+2021-06-06 13:00:32,903  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:00:33,459  * Restarting with stat
+2021-06-06 13:00:35,148 Initiating Server Instance
+2021-06-06 13:00:35,814  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:00:36,487  * Restarting with stat
+2021-06-06 13:00:40,658 Initiating Server Instance
+2021-06-06 13:01:01,590  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:01:02,144  * Restarting with stat
+2021-06-06 13:01:05,883 Initiating Server Instance
+2021-06-06 13:01:06,416  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:01:06,749  * Restarting with stat
+2021-06-06 13:01:07,905 Initiating Server Instance
+2021-06-06 13:01:34,082  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:01:34,624  * Restarting with stat
+2021-06-06 13:01:35,798 Initiating Server Instance
+2021-06-06 13:02:16,704  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:02:17,242  * Restarting with stat
+2021-06-06 13:02:18,772 Initiating Server Instance
+2021-06-06 13:02:27,906  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:02:28,511  * Restarting with stat
+2021-06-06 13:02:29,827 Initiating Server Instance
+2021-06-06 13:02:50,624  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:02:51,144  * Restarting with stat
+2021-06-06 13:02:52,247 Initiating Server Instance
+2021-06-06 13:03:02,527  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:03:03,000  * Restarting with stat
+2021-06-06 13:03:06,184  * Restarting with stat
+2021-06-06 13:03:09,250  * Restarting with stat
+2021-06-06 13:03:11,321  * Restarting with stat
+2021-06-06 13:03:12,474 Initiating Server Instance
+2021-06-06 13:03:15,453  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:03:15,824  * Restarting with stat
+2021-06-06 13:03:17,253 Initiating Server Instance
+2021-06-06 13:03:23,337  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:03:23,596  * Restarting with stat
+2021-06-06 13:03:39,744  * Restarting with stat
+2021-06-06 13:03:41,125 Initiating Server Instance
+2021-06-06 13:03:42,885  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:03:43,422  * Restarting with stat
+2021-06-06 13:03:44,737 Initiating Server Instance
+2021-06-06 13:03:51,787  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:03:52,150  * Restarting with stat
+2021-06-06 13:03:53,418 Initiating Server Instance
+2021-06-06 13:04:00,456  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:04:01,021  * Restarting with stat
+2021-06-06 13:04:02,299 Initiating Server Instance
+2021-06-06 13:04:04,038  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:04:04,579  * Restarting with stat
+2021-06-06 13:04:06,095 Initiating Server Instance
+2021-06-06 13:04:06,748  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:04:07,290  * Restarting with stat
+2021-06-06 13:04:08,783 Initiating Server Instance
+2021-06-06 13:04:09,438  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:04:09,963  * Restarting with stat
+2021-06-06 13:04:11,296 Initiating Server Instance
+2021-06-06 13:04:16,246  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:04:16,633  * Restarting with stat
+2021-06-06 13:04:17,806 Initiating Server Instance
+2021-06-06 13:04:32,395  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:04:32,675  * Restarting with stat
+2021-06-06 13:04:33,733 Initiating Server Instance
+2021-06-06 13:04:39,822  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:04:40,078  * Restarting with stat
+2021-06-06 13:04:41,284 Initiating Server Instance
+2021-06-06 13:04:56,920  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:04:57,493  * Restarting with stat
+2021-06-06 13:04:58,801 Initiating Server Instance
+2021-06-06 13:04:59,510  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:05:00,174  * Restarting with stat
+2021-06-06 13:05:06,389  * Restarting with stat
+2021-06-06 13:05:08,371  * Restarting with stat
+2021-06-06 13:05:09,782 Initiating Server Instance
+2021-06-06 13:05:10,433  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:05:10,987  * Restarting with stat
+2021-06-06 13:05:12,169 Initiating Server Instance
+2021-06-06 13:05:15,047  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:05:15,520  * Restarting with stat
+2021-06-06 13:05:16,737 Initiating Server Instance
+2021-06-06 13:05:25,961  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:05:26,505  * Restarting with stat
+2021-06-06 13:05:27,556 Initiating Server Instance
+2021-06-06 13:05:38,973  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:05:39,442  * Restarting with stat
+2021-06-06 13:05:40,608 Initiating Server Instance
+2021-06-06 13:05:42,430  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:05:42,948  * Restarting with stat
+2021-06-06 13:05:44,242 Initiating Server Instance
+2021-06-06 13:05:47,100  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:05:47,635  * Restarting with stat
+2021-06-06 13:05:48,793 Initiating Server Instance
+2021-06-06 13:05:55,855  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:05:56,128  * Restarting with stat
+2021-06-06 13:05:57,215 Initiating Server Instance
+2021-06-06 13:05:59,037  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:05:59,562  * Restarting with stat
+2021-06-06 13:06:01,024 Initiating Server Instance
+2021-06-06 13:06:04,909  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:06:05,659  * Restarting with stat
+2021-06-06 13:06:07,203 Initiating Server Instance
+2021-06-06 13:07:05,005  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:07:05,583  * Restarting with stat
+2021-06-06 13:07:06,809 Initiating Server Instance
+2021-06-06 13:07:07,565  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:07:08,133  * Restarting with stat
+2021-06-06 13:07:09,217 Initiating Server Instance
+2021-06-06 13:07:11,022  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:07:11,545  * Restarting with stat
+2021-06-06 13:07:16,734  * Restarting with stat
+2021-06-06 13:07:17,893 Initiating Server Instance
+2021-06-06 13:45:36,546  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:45:37,196  * Restarting with stat
+2021-06-06 13:45:41,399 Initiating Server Instance
+2021-06-06 13:46:23,780  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:46:24,337  * Restarting with stat
+2021-06-06 13:46:27,060 Initiating Server Instance
+2021-06-06 13:46:58,563  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:46:59,034  * Restarting with stat
+2021-06-06 13:47:00,344 Initiating Server Instance
+2021-06-06 13:47:02,022  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:47:02,547  * Restarting with stat
+2021-06-06 13:47:03,761 Initiating Server Instance
+2021-06-06 13:47:18,452  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:47:18,982  * Restarting with stat
+2021-06-06 13:47:20,981 Initiating Server Instance
+2021-06-06 13:47:49,875 Error occured in user_auth_signuplocal variable 'token' referenced before assignment
+2021-06-06 13:47:49,928 127.0.0.1 - - [06/Jun/2021 13:47:49] "[35m[1mPOST /auth/sign_up?user_name=karthik&user_password=sathe HTTP/1.1[0m" 500 -
+2021-06-06 13:48:50,512  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:48:51,059  * Restarting with stat
+2021-06-06 13:49:01,417  * Restarting with stat
+2021-06-06 13:49:05,246  * Restarting with stat
+2021-06-06 13:49:06,934 Initiating Server Instance
+2021-06-06 13:49:43,836  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:49:44,167  * Restarting with stat
+2021-06-06 13:49:49,473  * Restarting with stat
+2021-06-06 13:49:54,767  * Restarting with stat
+2021-06-06 13:49:57,143  * Restarting with stat
+2021-06-06 13:49:58,845 Initiating Server Instance
+2021-06-06 13:50:14,534  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:50:15,036  * Restarting with stat
+2021-06-06 13:50:16,369 Initiating Server Instance
+2021-06-06 13:50:51,941  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:50:52,447  * Restarting with stat
+2021-06-06 13:51:00,794  * Restarting with stat
+2021-06-06 13:51:02,846  * Restarting with stat
+2021-06-06 13:51:05,888  * Restarting with stat
+2021-06-06 13:51:07,052 Initiating Server Instance
+2021-06-06 13:51:07,829  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:51:08,447  * Restarting with stat
+2021-06-06 13:51:09,579 Initiating Server Instance
+2021-06-06 13:51:10,340  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:51:10,930  * Restarting with stat
+2021-06-06 13:51:12,339 Initiating Server Instance
+2021-06-06 13:51:35,290  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:51:35,733  * Restarting with stat
+2021-06-06 13:51:36,864 Initiating Server Instance
+2021-06-06 13:51:41,889  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:51:42,387  * Restarting with stat
+2021-06-06 13:51:43,466 Initiating Server Instance
+2021-06-06 13:51:49,508  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:51:50,102  * Restarting with stat
+2021-06-06 13:51:54,414  * Restarting with stat
+2021-06-06 13:51:55,614 Initiating Server Instance
+2021-06-06 13:51:59,484  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:52:00,021  * Restarting with stat
+2021-06-06 13:52:03,086  * Restarting with stat
+2021-06-06 13:52:04,286 Initiating Server Instance
+2021-06-06 13:52:11,407  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:52:11,963  * Restarting with stat
+2021-06-06 13:52:13,034 Initiating Server Instance
+2021-06-06 13:52:17,028  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:52:17,430  * Restarting with stat
+2021-06-06 13:52:18,893 Initiating Server Instance
+2021-06-06 13:52:19,446  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:52:19,765  * Restarting with stat
+2021-06-06 13:52:21,704 Initiating Server Instance
+2021-06-06 13:52:27,516  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:52:28,072  * Restarting with stat
+2021-06-06 13:52:37,446  * Restarting with stat
+2021-06-06 13:52:38,683 Initiating Server Instance
+2021-06-06 13:52:41,522  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:52:42,110  * Restarting with stat
+2021-06-06 13:52:43,365 Initiating Server Instance
+2021-06-06 13:52:45,093  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:52:45,659  * Restarting with stat
+2021-06-06 13:52:47,376 Initiating Server Instance
+2021-06-06 13:52:48,998  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:52:50,240  * Restarting with stat
+2021-06-06 13:52:51,923 Initiating Server Instance
+2021-06-06 13:52:52,608  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:52:53,103  * Restarting with stat
+2021-06-06 13:52:54,384 Initiating Server Instance
+2021-06-06 13:53:03,593  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:53:04,169  * Restarting with stat
+2021-06-06 13:53:05,418 Initiating Server Instance
+2021-06-06 13:53:37,525 127.0.0.1 - - [06/Jun/2021 13:53:37] "[31m[1mGET /auth/log_in HTTP/1.1[0m" 405 -
+2021-06-06 13:53:44,332 127.0.0.1 - - [06/Jun/2021 13:53:44] "[35m[1mPOST /auth/log_in HTTP/1.1[0m" 201 -
+2021-06-06 13:54:21,736  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:54:22,275  * Restarting with stat
+2021-06-06 13:54:23,528 Initiating Server Instance
+2021-06-06 13:54:25,303  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:54:25,812  * Restarting with stat
+2021-06-06 13:54:32,030  * Restarting with stat
+2021-06-06 13:57:17,681  * Restarting with stat
+2021-06-06 13:57:25,051  * Restarting with stat
+2021-06-06 13:57:26,316 Initiating Server Instance
+2021-06-06 13:57:27,134  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:57:27,556  * Restarting with stat
+2021-06-06 13:57:29,808 Initiating Server Instance
+2021-06-06 13:57:40,019  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:57:40,510  * Restarting with stat
+2021-06-06 13:57:41,721 Initiating Server Instance
+2021-06-06 13:57:43,483  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:57:44,067  * Restarting with stat
+2021-06-06 13:57:45,296 Initiating Server Instance
+2021-06-06 13:57:48,187  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 13:57:48,664  * Restarting with stat
+2021-06-06 13:57:49,699 Initiating Server Instance
+2021-06-06 13:58:01,179  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 13:58:01,644  * Restarting with stat
+2021-06-06 13:58:03,608  * Restarting with stat
+2021-06-06 13:58:06,664  * Restarting with stat
+2021-06-06 13:58:08,784  * Restarting with stat
+2021-06-06 13:58:20,543  * Restarting with stat
+2021-06-06 13:58:32,300  * Restarting with stat
+2021-06-06 13:58:35,347  * Restarting with stat
+2021-06-06 13:58:38,404  * Restarting with stat
+2021-06-06 13:58:46,752  * Restarting with stat
+2021-06-06 13:59:53,094 Initiating Server Instance
+2021-06-06 13:59:53,551  * Restarting with stat
+2021-06-06 13:59:55,161 Initiating Server Instance
+2021-06-06 14:00:07,996 Error occured in user_auth_signuplocal variable 'token' referenced before assignment
+2021-06-06 14:00:07,997 127.0.0.1 - - [06/Jun/2021 14:00:07] "[31m[1mPOST /auth/sign_up?user_name=karthik&user_password=sathe HTTP/1.1[0m" 400 -
+2021-06-06 14:02:23,549  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:02:24,083  * Restarting with stat
+2021-06-06 14:02:25,535 Initiating Server Instance
+2021-06-06 14:02:27,355  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:02:27,944  * Restarting with stat
+2021-06-06 14:02:29,283 Initiating Server Instance
+2021-06-06 14:02:57,571  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:02:58,137  * Restarting with stat
+2021-06-06 14:02:59,327 Initiating Server Instance
+2021-06-06 14:03:00,070  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:03:00,637  * Restarting with stat
+2021-06-06 14:03:01,958 Initiating Server Instance
+2021-06-06 14:03:06,081 127.0.0.1 - - [06/Jun/2021 14:03:06] "[31m[1mPOST /auth/sign_up?user_name=karthik&user_password=sathe HTTP/1.1[0m" 400 -
+2021-06-06 14:03:08,641 127.0.0.1 - - [06/Jun/2021 14:03:08] "[31m[1mPOST /auth/sign_up?user_name=karthik&user_password=sathe HTTP/1.1[0m" 400 -
+2021-06-06 14:03:28,913 Initiating Server Instance
+2021-06-06 14:03:29,244  * Restarting with stat
+2021-06-06 14:03:30,468 Initiating Server Instance
+2021-06-06 14:03:36,620 127.0.0.1 - - [06/Jun/2021 14:03:36] "[31m[1mPOST /auth/sign_up?user_name=karthik&user_password=sathe HTTP/1.1[0m" 400 -
+2021-06-06 14:04:33,893  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:04:34,384  * Restarting with stat
+2021-06-06 14:04:36,350 Initiating Server Instance
+2021-06-06 14:04:40,201  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:04:40,782  * Restarting with stat
+2021-06-06 14:04:42,000 Initiating Server Instance
+2021-06-06 14:04:44,819  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:04:45,348  * Restarting with stat
+2021-06-06 14:04:46,608 Initiating Server Instance
+2021-06-06 14:04:55,767  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:04:56,294  * Restarting with stat
+2021-06-06 14:04:57,493 Initiating Server Instance
+2021-06-06 14:05:02,450  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:05:02,841  * Restarting with stat
+2021-06-06 14:05:03,938 Initiating Server Instance
+2021-06-06 14:05:08,921  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:05:09,301  * Restarting with stat
+2021-06-06 14:05:10,524 Initiating Server Instance
+2021-06-06 14:05:13,390  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:05:13,860  * Restarting with stat
+2021-06-06 14:05:14,995 Initiating Server Instance
+2021-06-06 14:05:15,762  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:05:16,289  * Restarting with stat
+2021-06-06 14:05:17,515 Initiating Server Instance
+2021-06-06 14:05:23,666  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:05:24,189  * Restarting with stat
+2021-06-06 14:05:25,496 Initiating Server Instance
+2021-06-06 14:05:27,417 127.0.0.1 - - [06/Jun/2021 14:05:27] "[31m[1mPOST /auth/sign_up?user_name=karthik&user_password=sathe HTTP/1.1[0m" 400 -
+2021-06-06 14:05:37,996  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 14:05:38,450  * Restarting with stat
+2021-06-06 14:05:41,510 Initiating Server Instance
+2021-06-06 14:05:43,174  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 14:05:43,729  * Restarting with stat
+2021-06-06 14:05:47,921  * Restarting with stat
+2021-06-06 14:05:49,228 Initiating Server Instance
+2021-06-06 14:05:52,060  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 14:05:52,652  * Restarting with stat
+2021-06-06 14:05:54,078 Initiating Server Instance
+2021-06-06 14:05:54,748  * Restarting with stat
+2021-06-06 14:05:56,052 Initiating Server Instance
+2021-06-06 14:05:59,178 local variable 'token' referenced before assignment
+2021-06-06 14:05:59,179 127.0.0.1 - - [06/Jun/2021 14:05:59] "[31m[1mPOST /auth/sign_up?user_name=karthik&user_password=sathe HTTP/1.1[0m" 400 -
+2021-06-06 14:06:45,590  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:06:46,049  * Restarting with stat
+2021-06-06 14:06:47,323 Initiating Server Instance
+2021-06-06 14:06:49,002  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:06:49,507  * Restarting with stat
+2021-06-06 14:06:50,630 Initiating Server Instance
+2021-06-06 14:06:54,731 127.0.0.1 - - [06/Jun/2021 14:06:54] "[35m[1mPOST /auth/sign_up?user_name=karthik&user_password=sathe HTTP/1.1[0m" 500 -
+2021-06-06 14:07:40,351  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 14:07:40,853  * Restarting with stat
+2021-06-06 14:07:43,477 Initiating Server Instance
+2021-06-06 14:08:01,443 127.0.0.1 - - [06/Jun/2021 14:08:01] "[35m[1mPOST /auth/sign_up?user_name=karthik&user_password=sathe HTTP/1.1[0m" 201 -
+2021-06-06 14:08:37,336  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 14:08:37,832  * Restarting with stat
+2021-06-06 14:08:39,330  * Restarting with stat
+2021-06-06 14:08:41,717  * Restarting with stat
+2021-06-06 14:08:42,909 Initiating Server Instance
+2021-06-06 14:08:48,958  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 14:08:49,429  * Restarting with stat
+2021-06-06 14:08:50,504 Initiating Server Instance
+2021-06-06 14:08:54,650 127.0.0.1 - - [06/Jun/2021 14:08:54] "[35m[1mPOST /auth/sign_up?user_name=karthik&user_password=sathe HTTP/1.1[0m" 201 -
+2021-06-06 14:09:37,348 127.0.0.1 - - [06/Jun/2021 14:09:37] "[35m[1mPOST /auth/sign_up?user_name=karthik&user_password=sathe HTTP/1.1[0m" 201 -
+2021-06-06 14:09:42,469 127.0.0.1 - - [06/Jun/2021 14:09:42] "[35m[1mPOST /auth/sign_up?user_name=karthik&user_password=sathe HTTP/1.1[0m" 201 -
+2021-06-06 14:09:54,302 127.0.0.1 - - [06/Jun/2021 14:09:54] "[35m[1mPOST /auth/sign_up?user_name=karthik2&user_password=sathe HTTP/1.1[0m" 201 -
+2021-06-06 14:26:56,345  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 14:26:56,810  * Restarting with stat
+2021-06-06 14:26:58,933  * Restarting with stat
+2021-06-06 14:27:09,294  * Restarting with stat
+2021-06-06 14:27:10,444 Initiating Server Instance
+2021-06-06 14:27:12,217  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 14:27:12,778  * Restarting with stat
+2021-06-06 14:27:13,842 Initiating Server Instance
+2021-06-06 14:27:22,064  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:27:22,642  * Restarting with stat
+2021-06-06 14:27:27,914  * Restarting with stat
+2021-06-06 14:27:34,265  * Restarting with stat
+2021-06-06 14:27:53,125  * Restarting with stat
+2021-06-06 14:27:54,327 Initiating Server Instance
+2021-06-06 14:28:02,469  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:28:03,065  * Restarting with stat
+2021-06-06 14:28:04,262 Initiating Server Instance
+2021-06-06 14:28:06,103  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:28:07,007  * Restarting with stat
+2021-06-06 14:28:08,117 Initiating Server Instance
+2021-06-06 14:28:09,915  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:28:10,520  * Restarting with stat
+2021-06-06 14:28:11,853 Initiating Server Instance
+2021-06-06 14:28:17,846  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:28:18,370  * Restarting with stat
+2021-06-06 14:28:19,517 Initiating Server Instance
+2021-06-06 14:28:25,562  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:28:25,899  * Restarting with stat
+2021-06-06 14:28:27,105 Initiating Server Instance
+2021-06-06 14:28:41,566  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:28:42,043  * Restarting with stat
+2021-06-06 14:28:43,280 Initiating Server Instance
+2021-06-06 14:28:47,219  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:28:47,697  * Restarting with stat
+2021-06-06 14:28:50,815  * Restarting with stat
+2021-06-06 14:28:52,015 Initiating Server Instance
+2021-06-06 14:28:54,848  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:28:55,360  * Restarting with stat
+2021-06-06 14:28:59,611  * Restarting with stat
+2021-06-06 14:29:02,672  * Restarting with stat
+2021-06-06 14:29:03,814 Initiating Server Instance
+2021-06-06 14:29:07,807  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:29:08,213  * Restarting with stat
+2021-06-06 14:29:09,509 Initiating Server Instance
+2021-06-06 14:29:10,269  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:29:10,861  * Restarting with stat
+2021-06-06 14:29:12,536 Initiating Server Instance
+2021-06-06 14:29:13,136  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:29:13,923  * Restarting with stat
+2021-06-06 14:29:15,082 Initiating Server Instance
+2021-06-06 14:29:15,931  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:29:16,444  * Restarting with stat
+2021-06-06 14:29:17,816 Initiating Server Instance
+2021-06-06 14:29:21,647  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:29:22,182  * Restarting with stat
+2021-06-06 14:29:23,414 Initiating Server Instance
+2021-06-06 14:29:25,223  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:29:25,802  * Restarting with stat
+2021-06-06 14:29:27,210 Initiating Server Instance
+2021-06-06 14:29:34,195  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:29:34,614  * Restarting with stat
+2021-06-06 14:29:36,763  * Restarting with stat
+2021-06-06 14:29:38,199 Initiating Server Instance
+2021-06-06 14:29:39,881  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:29:40,463  * Restarting with stat
+2021-06-06 14:29:41,964 Initiating Server Instance
+2021-06-06 14:29:47,915  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:29:48,370  * Restarting with stat
+2021-06-06 14:29:49,774 Initiating Server Instance
+2021-06-06 14:29:53,623  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:29:54,109  * Restarting with stat
+2021-06-06 14:29:55,220 Initiating Server Instance
+2021-06-06 14:29:57,030  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:29:57,950  * Restarting with stat
+2021-06-06 14:29:59,733 Initiating Server Instance
+2021-06-06 14:30:00,390  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:30:00,930  * Restarting with stat
+2021-06-06 14:30:02,562 Initiating Server Instance
+2021-06-06 14:30:06,544  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:30:07,148  * Restarting with stat
+2021-06-06 14:30:09,144 Initiating Server Instance
+2021-06-06 14:30:09,729  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:30:10,122  * Restarting with stat
+2021-06-06 14:30:12,504 Initiating Server Instance
+2021-06-06 14:30:12,921  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:30:13,438  * Restarting with stat
+2021-06-06 14:30:15,245 Initiating Server Instance
+2021-06-06 14:30:15,809  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:30:16,189  * Restarting with stat
+2021-06-06 14:30:18,218 Initiating Server Instance
+2021-06-06 14:30:24,316  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:30:24,685  * Restarting with stat
+2021-06-06 14:30:26,302 Initiating Server Instance
+2021-06-06 14:30:34,379  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:30:34,973  * Restarting with stat
+2021-06-06 14:30:36,802 Initiating Server Instance
+2021-06-06 14:30:44,916  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:30:45,214  * Restarting with stat
+2021-06-06 14:30:47,405 Initiating Server Instance
+2021-06-06 14:30:51,188  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:30:51,788  * Restarting with stat
+2021-06-06 14:30:53,297 Initiating Server Instance
+2021-06-06 14:31:06,846  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:31:07,354  * Restarting with stat
+2021-06-06 14:31:09,004 Initiating Server Instance
+2021-06-06 14:31:12,743  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:31:13,330  * Restarting with stat
+2021-06-06 14:31:14,576 Initiating Server Instance
+2021-06-06 14:31:33,285  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:31:33,828  * Restarting with stat
+2021-06-06 14:31:43,227  * Restarting with stat
+2021-06-06 14:31:44,472 Initiating Server Instance
+2021-06-06 14:31:46,223  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:31:46,802  * Restarting with stat
+2021-06-06 14:31:48,174 Initiating Server Instance
+2021-06-06 14:31:49,939  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:31:50,495  * Restarting with stat
+2021-06-06 14:31:53,675  * Restarting with stat
+2021-06-06 14:31:54,767 Initiating Server Instance
+2021-06-06 14:31:56,646  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:31:57,245  * Restarting with stat
+2021-06-06 14:31:58,508 Initiating Server Instance
+2021-06-06 14:32:01,364  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 14:32:01,921  * Restarting with stat
+2021-06-06 14:32:03,954  * Restarting with stat
+2021-06-06 14:32:06,027  * Restarting with stat
+2021-06-06 14:32:43,269  * Restarting with stat
+2021-06-06 14:34:49,942  * Restarting with stat
+2021-06-06 14:34:53,137  * Restarting with stat
+2021-06-06 14:35:02,503  * Restarting with stat
+2021-06-06 14:35:21,347  * Restarting with stat
+2021-06-06 14:35:33,848  * Restarting with stat
+2021-06-06 14:35:48,491  * Restarting with stat
+2021-06-06 14:35:56,852  * Restarting with stat
+2021-06-06 14:36:08,318  * Restarting with stat
+2021-06-06 14:36:10,564  * Restarting with stat
+2021-06-06 14:36:14,726  * Restarting with stat
+2021-06-06 14:37:26,397  * Restarting with stat
+2021-06-06 14:37:35,098  * Restarting with stat
+2021-06-06 14:37:38,117  * Restarting with stat
+2021-06-06 14:37:41,269  * Restarting with stat
+2021-06-06 14:37:44,225  * Restarting with stat
+2021-06-06 14:37:46,149  * Restarting with stat
+2021-06-06 14:40:18,371  * Restarting with stat
+2021-06-06 14:40:42,806  * Restarting with stat
+2021-06-06 14:40:56,452  * Restarting with stat
+2021-06-06 14:41:04,942  * Restarting with stat
+2021-06-06 14:41:37,538  * Restarting with stat
+2021-06-06 14:41:43,719  * Restarting with stat
+2021-06-06 14:41:45,844  * Restarting with stat
+2021-06-06 14:42:40,646  * Restarting with stat
+2021-06-06 14:42:47,069  * Restarting with stat
+2021-06-06 14:42:51,146  * Restarting with stat
+2021-06-06 14:43:23,820  * Restarting with stat
+2021-06-06 14:43:37,717  * Restarting with stat
+2021-06-06 14:44:28,270  * Restarting with stat
+2021-06-06 14:44:34,443  * Restarting with stat
+2021-06-06 14:44:48,125  * Restarting with stat
+2021-06-06 14:44:55,446  * Restarting with stat
+2021-06-06 15:21:36,654  * Restarting with stat
+2021-06-06 15:21:49,613  * Restarting with stat
+2021-06-06 15:21:58,196  * Restarting with stat
+2021-06-06 15:22:01,310  * Restarting with stat
+2021-06-06 15:22:13,877  * Restarting with stat
+2021-06-06 15:22:29,610  * Restarting with stat
+2021-06-06 15:22:31,813  * Restarting with stat
+2021-06-06 15:22:41,293  * Restarting with stat
+2021-06-06 15:22:44,546  * Restarting with stat
+2021-06-06 15:22:47,527  * Restarting with stat
+2021-06-06 15:22:51,701  * Restarting with stat
+2021-06-06 15:22:55,997  * Restarting with stat
+2021-06-06 15:22:58,114  * Restarting with stat
+2021-06-06 15:23:23,430  * Restarting with stat
+2021-06-06 15:23:42,523  * Restarting with stat
+2021-06-06 15:23:43,956 Initiating Server Instance
+2021-06-06 15:23:51,038  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:23:51,136  * Restarting with stat
+2021-06-06 15:23:52,538 Initiating Server Instance
+2021-06-06 15:26:45,350  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:26:45,466  * Restarting with stat
+2021-06-06 15:26:46,965 Initiating Server Instance
+2021-06-06 15:26:47,642  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:26:47,725  * Restarting with stat
+2021-06-06 15:26:48,848 Initiating Server Instance
+2021-06-06 15:26:55,934  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:26:56,049  * Restarting with stat
+2021-06-06 15:26:57,370 Initiating Server Instance
+2021-06-06 15:27:01,284  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:27:01,390  * Restarting with stat
+2021-06-06 15:27:02,711 Initiating Server Instance
+2021-06-06 15:27:04,412  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:27:04,515  * Restarting with stat
+2021-06-06 15:27:05,658 Initiating Server Instance
+2021-06-06 15:27:15,906  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:27:16,016  * Restarting with stat
+2021-06-06 15:27:17,663 Initiating Server Instance
+2021-06-06 15:27:25,708  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:27:25,799  * Restarting with stat
+2021-06-06 15:27:27,222 Initiating Server Instance
+2021-06-06 15:27:31,009  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:27:31,119  * Restarting with stat
+2021-06-06 15:27:34,243  * Restarting with stat
+2021-06-06 15:27:37,414  * Restarting with stat
+2021-06-06 15:27:41,594  * Restarting with stat
+2021-06-06 15:27:42,711 Initiating Server Instance
+2021-06-06 15:27:48,764  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:27:48,848  * Restarting with stat
+2021-06-06 15:27:49,971 Initiating Server Instance
+2021-06-06 15:27:57,100  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:27:57,187  * Restarting with stat
+2021-06-06 15:27:58,613 Initiating Server Instance
+2021-06-06 15:28:00,361  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:28:00,455  * Restarting with stat
+2021-06-06 15:28:02,398 Initiating Server Instance
+2021-06-06 15:28:03,846  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:28:03,959  * Restarting with stat
+2021-06-06 15:28:05,275 Initiating Server Instance
+2021-06-06 15:31:18,620  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\mongo_service_model.py', reloading
+2021-06-06 15:31:18,715  * Restarting with stat
+2021-06-06 15:31:19,943 Initiating Server Instance
+2021-06-06 15:32:25,129  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:32:25,215  * Restarting with stat
+2021-06-06 15:32:28,384 Initiating Server Instance
+2021-06-06 15:32:28,558  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:32:28,755  * Restarting with stat
+2021-06-06 15:32:29,903 Initiating Server Instance
+2021-06-06 15:32:54,964  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:32:55,059  * Restarting with stat
+2021-06-06 15:32:56,212 Initiating Server Instance
+2021-06-06 15:32:57,972  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:32:58,071  * Restarting with stat
+2021-06-06 15:33:00,595 Initiating Server Instance
+2021-06-06 15:33:03,490  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:33:03,588  * Restarting with stat
+2021-06-06 15:33:06,102 Initiating Server Instance
+2021-06-06 15:33:11,089  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:33:11,186  * Restarting with stat
+2021-06-06 15:33:12,364 Initiating Server Instance
+2021-06-06 15:33:18,413  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:33:18,507  * Restarting with stat
+2021-06-06 15:33:19,652 Initiating Server Instance
+2021-06-06 15:34:54,473  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\controllers\\auth_model.py', reloading
+2021-06-06 15:34:54,587  * Restarting with stat
+2021-06-06 15:34:57,188 Initiating Server Instance
+2021-06-06 15:35:17,009  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 15:35:17,177  * Restarting with stat
+2021-06-06 15:35:21,671  * Restarting with stat
+2021-06-06 15:35:22,934 Initiating Server Instance
+2021-06-06 15:35:23,597  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 15:35:23,702  * Restarting with stat
+2021-06-06 15:35:24,949 Initiating Server Instance
+2021-06-06 15:35:42,688  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 15:35:42,791  * Restarting with stat
+2021-06-06 15:35:50,500  * Restarting with stat
+2021-06-06 15:35:52,159 Initiating Server Instance
+2021-06-06 15:35:52,763  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 15:35:52,893  * Restarting with stat
+2021-06-06 15:35:54,051 Initiating Server Instance
+2021-06-06 15:35:54,798  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 15:35:54,912  * Restarting with stat
+2021-06-06 15:35:56,229 Initiating Server Instance
+2021-06-06 15:35:56,890  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 15:35:57,021  * Restarting with stat
+2021-06-06 15:35:58,590 Initiating Server Instance
+2021-06-06 15:36:00,311  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 15:36:00,402  * Restarting with stat
+2021-06-06 15:36:01,680 Initiating Server Instance
+2021-06-06 15:36:12,995  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\auth_routes.py', reloading
+2021-06-06 15:36:13,104  * Restarting with stat
+2021-06-06 15:36:15,771 Initiating Server Instance
+2021-06-06 15:36:23,970  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:36:24,058  * Restarting with stat
+2021-06-06 15:36:27,009  * Restarting with stat
+2021-06-06 15:36:28,383 Initiating Server Instance
+2021-06-06 15:36:44,943  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:36:45,036  * Restarting with stat
+2021-06-06 15:36:46,192 Initiating Server Instance
+2021-06-06 15:36:48,011  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:36:48,102  * Restarting with stat
+2021-06-06 15:36:49,335 Initiating Server Instance
+2021-06-06 15:36:53,196  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:36:53,305  * Restarting with stat
+2021-06-06 15:36:54,506 Initiating Server Instance
+2021-06-06 15:37:02,700  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:37:02,801  * Restarting with stat
+2021-06-06 15:37:05,743  * Restarting with stat
+2021-06-06 15:37:07,742  * Restarting with stat
+2021-06-06 15:37:11,713  * Restarting with stat
+2021-06-06 15:37:13,704  * Restarting with stat
+2021-06-06 15:37:17,644  * Restarting with stat
+2021-06-06 15:37:29,902  * Restarting with stat
+2021-06-06 15:37:31,835  * Restarting with stat
+2021-06-06 15:37:34,772  * Restarting with stat
+2021-06-06 15:37:37,742  * Restarting with stat
+2021-06-06 15:37:41,786  * Restarting with stat
+2021-06-06 15:37:43,787  * Restarting with stat
+2021-06-06 15:37:47,731  * Restarting with stat
+2021-06-06 15:37:50,699  * Restarting with stat
+2021-06-06 15:37:58,819  * Restarting with stat
+2021-06-06 15:38:00,936  * Restarting with stat
+2021-06-06 15:38:03,893  * Restarting with stat
+2021-06-06 15:38:08,936  * Restarting with stat
+2021-06-06 15:38:11,863  * Restarting with stat
+2021-06-06 15:38:17,901  * Restarting with stat
+2021-06-06 15:38:21,889  * Restarting with stat
+2021-06-06 15:38:29,108  * Restarting with stat
+2021-06-06 15:38:30,308 Initiating Server Instance
+2021-06-06 15:38:32,135  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:38:32,241  * Restarting with stat
+2021-06-06 15:38:33,486 Initiating Server Instance
+2021-06-06 15:39:04,886  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:39:04,983  * Restarting with stat
+2021-06-06 15:39:06,174 Initiating Server Instance
+2021-06-06 15:39:14,251  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:39:14,349  * Restarting with stat
+2021-06-06 15:39:15,463 Initiating Server Instance
+2021-06-06 15:39:17,296  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:39:17,379  * Restarting with stat
+2021-06-06 15:39:18,566 Initiating Server Instance
+2021-06-06 15:39:19,283  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:39:19,382  * Restarting with stat
+2021-06-06 15:39:20,590 Initiating Server Instance
+2021-06-06 15:40:09,300  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:40:09,406  * Restarting with stat
+2021-06-06 15:40:13,326 Initiating Server Instance
+2021-06-06 15:40:18,527  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:40:18,657  * Restarting with stat
+2021-06-06 15:40:20,119 Initiating Server Instance
+2021-06-06 15:40:30,316  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:40:30,421  * Restarting with stat
+2021-06-06 15:40:32,375  * Restarting with stat
+2021-06-06 15:40:43,668  * Restarting with stat
+2021-06-06 15:40:44,966 Initiating Server Instance
+2021-06-06 15:41:12,114  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:41:12,210  * Restarting with stat
+2021-06-06 15:41:13,348 Initiating Server Instance
+2021-06-06 15:41:16,212  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:41:16,319  * Restarting with stat
+2021-06-06 15:41:17,556 Initiating Server Instance
+2021-06-06 15:41:24,601  * Detected change in 'D:\\ReactProjs\\wikipidea-generator\\WikipideaKeyWordLinkGenerator\\src\\server\\routes\\wiki_routes.py', reloading
+2021-06-06 15:41:24,695  * Restarting with stat
+2021-06-06 15:41:25,804 Initiating Server Instance
