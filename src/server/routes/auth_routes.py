@@ -21,6 +21,7 @@ def sign_up():
             response =  make_response(jsonify(outputdata))
             if outputdata['status'] == 'Success':
                 response.set_cookie('auth_cookie',value=token, httponly=True)
+                # update secure flag expire etc 
             return response,201
         else:
             return Response("Bad Request",status=400)
@@ -42,6 +43,7 @@ def log_in():
             response =  make_response(jsonify(outputdata))
             if outputdata['status'] == 'Success':
                 response.set_cookie('auth_cookie',value=token, httponly=True)
+                # update secure flag expire etc 
             return response,201
         else:
             return Response("Bad Request",status=400)
