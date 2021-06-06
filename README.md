@@ -1,2 +1,2 @@
 # WikipideaKeyWordLinkGenerator
-Give an reference valid wikipidea link map the related links and find search the keyword in all the related links and provide the related top10 results for the given keyword.
+Give an wikipidea reference  valid url, generate a mapping database so as to store all the relevant links and provide the link refrences through keywords
