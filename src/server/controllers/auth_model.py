@@ -79,7 +79,7 @@ class AuthModel:
         """
         try:
             payload = {
-                # 'exp': datetime.datetime.utcnow() + datetime.timedelta(days=0, seconds=3600),
+                'exp': datetime.datetime.utcnow() + datetime.timedelta(days=0, seconds=3600),
                 'iat': datetime.datetime.utcnow(),
                 'sub': user_name
             }
@@ -101,9 +101,7 @@ class AuthModel:
         :param:  auth_token
         :return: Object|bool
         """
-        try:
-            print(auth_token)
-            print(os.getenv('SECRET_KEY'))        
+        try:     
             payload = jwt.decode(auth_token, os.getenv('SECRET_KEY'),algorithms=['HS256'])
             return payload['sub']
         except jwt.ExpiredSignatureError:
